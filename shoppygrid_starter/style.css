@@ -1,0 +1,191 @@
+.jcoders {
+    width: 32px;
+    height: 32px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.womanbtn {
+  transition: scale 1s
+}
+
+.womanbtn:hover {
+  scale: 1.2;
+}
+
+.manbtn {
+  transition: scale  1s;
+}
+
+.manbtn:hover {
+  scale: 1.2;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boxing {
+    width: 32px;
+    height: 32px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.dropbtn {
+    background-color: #00b5fc;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;    
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #00b5fc;
+  }
+
+  .oferta {
+    margin-left: 200px;
+    
+}
+.mask {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(246, 239, 115);
+    width: 350px;
+    height: 150px;
+    opacity: 0.5;
+}
+
+.mask:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.masked-man {
+    width: 100px;
+    height: 100px;
+}
+
+.fanny {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+    width: 350px;
+    height: 150px;
+    margin-top: 30px;
+    opacity: 0.5;
+}
+
+.fanny-pack {
+  width: 100px;
+  height: 100px;
+  transform: rotate(90deg);
+}
+
+.fanny:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.vertical {
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+}
+
+.shoes {
+  height: 330px;
+  width: 150px;
+  background-color: rgb(250, 140, 166);
+  opacity: 0.5;
+  transition: scale 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoes:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.patika {
+  width: 100px;
+  height: 175px;
+}
+
+.duksa {
+  width: 150px;
+  height: 330px;
+  background-color: rgb(250, 140, 166);
+  margin-left: 30px;
+  transition: scale 1s;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.duksa:hover {
+  scale: 1.2;
+  opacity: 1;
+}
+
+.couple {
+  height: 190px;
+  width: 120px;
+}
